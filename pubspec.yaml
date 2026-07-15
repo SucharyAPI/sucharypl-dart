@@ -1,0 +1,11 @@
+name: sucharydart
+description: Oficjalna biblioteka bazy SucharyAPI dla dart
+version: 1.0.0
+repository: https://github.com/SucharyAPI/sucharypl-dart
+environment:
+  sdk: ^3.12.2
+dependencies:
+  http: ^1.6.0
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
