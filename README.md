@@ -45,7 +45,8 @@ void main() async {
 ## Kategorie
 - `programowanie` - Suchary o programowaniu
 - `dwuznaczne` - Suchary dwuznaczne
-- `szkolne` / `suchary` - Suchary szkolne / ogólne
+- `szkolne` - Suchary szkolne
+- `suchary` - Suchary ogólne
 - `wulgarne` - Suchary wulgarne
 - `czarnyhumor` - Czarny humor
 - `inne` - Inne kategorie
