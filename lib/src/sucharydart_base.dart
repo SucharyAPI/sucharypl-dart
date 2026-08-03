@@ -47,7 +47,7 @@ Future<String> dajKawal({Kategoria kategoria = Kategoria.domyslny}) async {
       throw APIError(odpAPI.statusCode, "Nie udało się pobrać suchara");
     } else {
       final dane = jsonDecode(odpAPI.body);
-      final zart = dane['zart'];
+      final zart = dane['tresc'];
       if (zart == null) {
         throw JSONError("Błąd odpowiedzi serwera");
       }

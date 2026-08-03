@@ -10,8 +10,8 @@ void main() async {
     print('Suchar: $losowy\n');
 
     // 2. Pobieranie suchara z konkretnej kategorii
-    print('Pobieram suchar programistyczny...');
-    final programistyczny = await dajKawal(kategoria: Kategoria.programowanie);
+    print('Pobieram suchar sucharowy...');
+    final programistyczny = await dajKawal(kategoria: Kategoria.suchary);
     print('Suchar IT: $programistyczny\n');
 
   } on ConnectionError catch (e) {
