@@ -7,3 +7,6 @@
 ## 1.1.0
 - dodanie funkcji pobierania wielu kawałów
 - dodanie funkcji obsługujących masakry
+
+## 1.1.1
+-aktualizacja dokumentacji REAMDE.md

@@ -19,7 +19,7 @@ flutter pub add sucharydart
 
 ---
 
-## ⚡ Szybki start
+## ⚡ Suchary
 ### Pobranie losowego suchara
 ```dart
 import 'package:sucharydart/sucharydart.dart';
@@ -37,6 +37,47 @@ import 'package:sucharydart/sucharydart.dart';
 void main() async {
   final suchar = await dajKawal(kategoria: Kategoria.programowanie);
   print(suchar);
+}
+```
+
+### Pobranie wielu sucharów
+```dart
+import 'package:sucharydart/sucharydart.dart';
+
+void main() async {
+  // Pobierz 3 suchary
+  final suchary await wieleKawalow(ilosc: 3);
+  print(suchary)
+
+  // Funkcja wieleKawalow() zwraca listę (array []) z żartami
+}
+
+```
+
+---
+
+## Masakry
+### Pobranie masakry
+```dart
+import 'package:sucharydart/sucharydart.dart';
+
+void main() async {
+  // Pobierz masakrę
+  final masakra = await masakra();
+  print(masakra);
+}
+```
+
+### Pobranie wielu masakr
+```dart
+import 'package:sucharydart/sucharydart.dart';
+
+void main() async {
+  // Pobierz 3 masakry
+  final masakry = await wieleMasakr(ilosc: 3);
+  print(masakry);
+
+  // Funkcja wieleMasakr() zwraca listę (array []) z masakrami
 }
 ```
 
